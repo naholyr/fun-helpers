@@ -29,7 +29,12 @@ For Node.js:
 npm install fun-helpers
 ```
 
-If you target browser and don't use `browserify`, you can either download the [pre-built (5K)](https://raw.githubusercontent.com/naholyr/fun-helpers/master/dist/fun-helpers.js) or [pre-built and minified (4.3K)](https://raw.githubusercontent.com/naholyr/fun-helpers/master/dist/fun-helpers.js).
+If you target browser and don't use `browserify`, you can download a pre-built standalone version:
+
+* [standard (6.3K)](https://raw.githubusercontent.com/naholyr/fun-helpers/master/dist/fun-helpers.js)
+* [minified (5.2K)](https://raw.githubusercontent.com/naholyr/fun-helpers/master/dist/fun-helpers.min.js)
+* [sourcemapped for debugging (16K)](https://raw.githubusercontent.com/naholyr/fun-helpers/master/dist/fun-helpers.debug.js)
+* If you don't use any loading system, a global variable `Fun` will contain the API.
 
 API
 ---

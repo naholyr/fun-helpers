@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "mocha",
-    "build": "browserify index.js > dist/fun-helpers.js && uglifyjs dist/fun-helpers.js > dist/fun-helpers.min.js"
+    "build": "browserify index.js -s Fun > dist/fun-helpers.js && browserify index.js -d -s Fun > dist/fun-helpers.debug.js && uglifyjs dist/fun-helpers.js -c > dist/fun-helpers.min.js"
   },
   "repository": {
     "type": "git",
