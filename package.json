@@ -1,0 +1,31 @@
+{
+  "name": "fun-helpers",
+  "version": "1.0.0",
+  "description": "JavaScript library providing some functional helpers, all very Promise-friendly",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha",
+    "build": "browserify index.js > dist/fun-helpers.js && uglifyjs dist/fun-helpers.js > dist/fun-helpers.min.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/naholyr/fun-helpers.git"
+  },
+  "keywords": [
+    "functional",
+    "promise",
+    "fn"
+  ],
+  "author": "Nicolas Chambrier <naholyr@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/naholyr/fun-helpers/issues"
+  },
+  "homepage": "https://github.com/naholyr/fun-helpers",
+  "devDependencies": {
+    "browserify": "^6.3.2",
+    "chai": "^1.10.0",
+    "mocha": "^2.0.1",
+    "uglifyjs": "^2.3.6"
+  }
+}
