@@ -9,5 +9,5 @@ it("unset", function () {
   expect(f).to.be.a("function");
   var o = {x: 1, y: 1};
   expect(f(o)).to.eql({x: 1});
-  expect(o).to.eql({x: 1}); // does mutate
+  expect(o).to.eql({x: 1, y: 1}); // does not mutate
 });

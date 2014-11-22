@@ -36,7 +36,7 @@ API
 
 Read next section if you don't know how to read this API.
 
-Note: ⚠ Methods marked with this sign will generate a function that modifies their parameter. All others are safe, and will have no side-effect in case of multiple `then`s on same promise.
+Note: All methods are safe (they do not mutate their input), and will have no side-effect in case of multiple `then`s on same promise.
 
 * **`all(test)`** `any -> boolean` -> `[any] -> boolean`
   * Checks if all elements of the promised array pass the test
@@ -70,10 +70,10 @@ Note: ⚠ Methods marked with this sign will generate a function that modifies t
 * **`reduce(foo)`** `any, any, number, [any] -> any` -> `[any] -> any`
   * Applies [a reduction](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/Reduce) on promised array
 * **`reduceRight`** is like `reduce` but will work with reversed array
-* ⚠ **`set(property, value)`** `string, any` -> `Object -> Object`
+* **`set(property, value)`** `string, any` -> `Object -> Object`
   * Sets the property of promised object to given value
 * **`some`** is an alias to `any(test)`
-* ⚠ **`unset(property)`** `string` -> `Object -> Object`
+* **`unset(property)`** `string` -> `Object -> Object`
   * Deletes property from promised object
 
 ### How to read type notation
