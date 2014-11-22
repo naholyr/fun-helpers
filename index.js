@@ -19,6 +19,7 @@ module.exports = {
   "partial": require("./lib/partial"),
   "reduce": require("./lib/reduce"),
   "reduceRight": require("./lib/reduceRight"),
+  "resolve": require("./lib/resolve"),
   "set": require("./lib/set"),
   "some": require("./lib/some"),
   "unset": require("./lib/unset")

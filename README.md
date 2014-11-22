@@ -72,6 +72,8 @@ Note: All methods are safe (they do not mutate their input), and will have no si
 * **`reduce(foo)`** `any, any, number, [any] -> any` -> `[any] -> any`
   * Applies [a reduction](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/Reduce) on promised array
 * **`reduceRight`** is like `reduce` but will work with reversed array
+* **`resolve(value)`** `any` -> `any -> any`
+  * Returns a function returning the given value whatever its input is.
 * **`set(property, value)`** `string, any` -> `Object -> Object`
   * Sets the property of promised object to given value
 * **`some`** is an alias to `any(test)`
