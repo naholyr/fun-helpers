@@ -1,3 +1,8 @@
+[![Build Status](https://travis-ci.org/naholyr/fun-helpers.png?branch=master)](https://travis-ci.org/naholyr/fun-helpers)
+[![npm version](https://badge.fury.io/js/fun-helpers.svg)](http://badge.fury.io/js/fun-helpers)
+[![Flattr this git repo](http://api.flattr.com/button/flattr-badge-large.png)](https://flattr.com/submit/auto?user_id=naholyr&url=https%3A%2F%2Fgithub.com%2Fnaholyr%2Ffun-helpers&title=Github-Todos&language=javascript&tags=github&category=software)
+[![Gittip donate](https://img.shields.io/gratipay/naholyr.svg)](https://gratipay.com/naholyr)
+
 fun-helpers
 ===========
 
