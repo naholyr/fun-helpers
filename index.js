@@ -9,6 +9,7 @@ module.exports = {
   "every": require("./lib/every"),
   "filter": require("./lib/filter"),
   "get": require("./lib/get"),
+  "ifndef": require("./lib/ifndef"),
   "isA": require("./lib/isA"),
   "is": require("./lib/is"),
   "map": require("./lib/map"),

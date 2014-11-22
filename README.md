@@ -53,6 +53,8 @@ Note: All methods are safe (they do not mutate their input), and will have no si
   * Filters promised array, keeping only values passing the test
 * **`get(property)`** `string` -> `Object -> any`
   * Returns property by its name from promised object
+* **`ifndef(default)`** `-> any` -> `any -> any`
+  * Returns default value if promised value is null or undefined (default can be a function returning the value, or directly the fallback value)
 * **`isA(type)`** `string or function` -> `any -> boolean`
   * Checks promised value is of the given type (can be a type name or a constructor function)
 * **`is(value)`** is an alias to `equals(value)`
