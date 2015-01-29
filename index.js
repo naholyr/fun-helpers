@@ -17,6 +17,7 @@ module.exports = {
   "neutral": require("./lib/neutral"),
   "not": require("./lib/not"),
   "partial": require("./lib/partial"),
+  "promisify": require("./lib/promisify"),
   "reduce": require("./lib/reduce"),
   "reduceRight": require("./lib/reduceRight"),
   "resolve": require("./lib/resolve"),

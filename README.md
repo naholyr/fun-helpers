@@ -79,6 +79,8 @@ Note: All methods are safe (they do not mutate their input), and will have no si
   * Applies foo on promised value and returns reversed result
 * **`partial(foo, fixedArgs…)`** `(any… -> any), any…` -> `any… -> any`
   * The usual partial tool, will return a function like foo but with the n first parameters fixed
+* **`promisify(foo, PromiseImpl)`** `(any…, (Error, any<T>))` -> `any… -> Promise<T>`
+  * Transform a callback-style asynchronous function into a function returning a promise (provide `Promise` implementation if no global `Promise` object exists)
 * **`reduce(foo)`** `any, any, number, [any] -> any` -> `[any] -> any`
   * Applies [a reduction](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/Reduce) on promised array
 * **`reduceRight`** is like `reduce` but will work with reversed array
