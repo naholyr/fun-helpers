@@ -88,6 +88,8 @@ Note: All methods are safe (they do not mutate their input), and will have no si
   * Returns a function returning the given value whatever its input is.
 * **`set(property, value)`** `string, any` -> `Object -> Object`
   * Sets the property of promised object to given value
+* **`set(object, property)`** `Object, string` -> `any -> Object`
+  * Sets the property of given object to promised value
 * **`some`** is an alias to `any(test)`
 * **`unset(property)`** `string` -> `Object -> Object`
   * Deletes property from promised object
