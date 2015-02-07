@@ -23,5 +23,6 @@ module.exports = {
   "resolve": require("./lib/resolve"),
   "set": require("./lib/set"),
   "some": require("./lib/some"),
+  "spread": require("./lib/spread"),
   "unset": require("./lib/unset")
 };

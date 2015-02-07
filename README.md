@@ -91,6 +91,9 @@ Note: All methods are safe (they do not mutate their input), and will have no si
 * **`set(object, property)`** `Object, string` -> `any -> Object`
   * Sets the property of given object to promised value
 * **`some`** is an alias to `any(test)`
+* **`spread(foo)`** `any… -> any` -> `[any] -> any`
+  * Will create a new function accepting a single Array argument, and returning the result of `foo` applied to those spread arguments
+  * An additional parameter can be passed to set foo's `this`
 * **`unset(property)`** `string` -> `Object -> Object`
   * Deletes property from promised object
 
